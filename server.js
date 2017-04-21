@@ -47,4 +47,4 @@ app.get('/:id', function(req, res){
    // var TimeNoramal = parsed.toISOString()
     console.log("****************\nunix :"+unix+"\ndate: "+date);
     res.send(dateObj);
-}).listen(8080 || process.env.PORT);
+}).listen(process.env.PORT||8080 );
