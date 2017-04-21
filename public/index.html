@@ -7,13 +7,28 @@
 </head>
 <body>
 
-<div> Time Stamp Micro Service</div>
+<div id="head"> Time Stamp Micro Service</div>
 <blockquote>
 
     <p>
-        http://
+        Our Homw page :  <a href="https://secret-island-36138.herokuapp.com/">https://secret-island-36138.herokuapp.com/</a>
     </p>
+    <p>
+        Pass String as a parameter to <a href="#">https://secret-island-36138.herokuapp.com/string</a> where the string should be a time stamp or a valid date.
+            <ul>
+                <li> If String is a valid time or unix time,  the Output will be of the form  as follows. <br>
+                    <div class="link"><a href="https://secret-island-36138.herokuapp.com/20 oct 2015 30">https://secret-island-36138.herokuapp.com/20 oct 2015 30</a> </div>
+                    <div class="code">{"unix":6297565708800,"natural":"01-Dec-201531"}</div>
+                </li>
+                <li>
+                    If the string is invalid date, the out will be of the form <br>
+                    <div class="link"><a href="https://secret-island-36138.herokuapp.com/8979rvr7r9v">https://secret-island-36138.herokuapp.com/20 oct 2015 30</a> </div>
 
+                    <div class="code">{"unix":null,"natural":null}</div>
+                </li>
+            </ul>
+
+    </p>
 </blockquote>
 
 </body>
