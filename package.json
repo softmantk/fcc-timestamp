@@ -1,0 +1,35 @@
+{
+  "name": "fcc-timestamp",
+  "version": "1.0.0",
+  "description": "fcc projects - node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softmantk/fcc-timestamp.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "freecodecamp",
+    "timestamp",
+    "projects"
+  ],
+  "author": "softman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softmantk/fcc-timestamp/issues"
+  },
+  "homepage": "https://github.com/softmantk/fcc-timestamp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1"
+  },
+  "engines": {
+    "node": "4.5.0"
+  }
+}

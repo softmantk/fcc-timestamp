@@ -1,0 +1,14 @@
+div {
+    color: #fff4e6;
+    text-align: center;
+    font-size: 3em;
+}
+body {
+    background-color: rgba(235, 173, 187, 0.73);
+    border: 10px solid red;
+}
+blockquote {
+    border-left: 10px solid rgba(144, 65, 65, 0.98);
+    font-size: 2em;
+    margin:1.5em;
+}
